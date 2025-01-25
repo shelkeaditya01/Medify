@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-600nw-2292992631.jpg);
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box2 */
+
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.addressbar1{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.searchnav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchbar{
+    width: 40px;
+    /* text-align: center;
+    margin-top: 10px; */
+    font-size: 1.1rem;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.signinspan1{
+    font-size: 0.7rem;
+}
+
+.signinspan2{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.ordernav1{
+    font-size: 0.7rem;
+}
+
+.ordernav2{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.cartnav i{
+    font-size: 29px;
+}
+
+.searchnav:hover{
+    border: 2px solid #febd68;
+}
+
+.cartnav{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.middlepanel p{
+    display: inline;
+    margin-left: 17px;
+}
+
+.middlepanel{
+    width: 90%;
+}
+
+.allpanel{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.herosection{
+    background-image: url(https://m.media-amazon.com/images/I/61IlupYtztL._SX1500_.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.box1img{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem;
+}
+
+.shopsection h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.shopsection a{
+    color: #007185;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer{
+    margin: 15px;
+}
+
+.line1{
+    color: white;
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.lists{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+ margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddd;
+    padding-bottom: 5px;
+}
+
+ul p{
+    font-weight: 600;
+}
+
+.finals{
+    height: 67px;
+    background-color: #222f3d;
+    border-top: 1px solid rgba(255, 255, 255, 0.566);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.t1{
+    color: #cccccc;
+    margin-top: 20px;
+    height: 34px;
+    width: 120px;
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.t2{
+    color: #cccccc;
+    margin-top: 20px;
+    height: 34px;
+    width: 150px;
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.t3{
+    color: #cccccc;
+    margin-top: 20px;
+    height: 34px;
+    width: 140px;
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+#flag{
+    margin: 5px;
+}
+
+.t3 a{
+    padding-left: 13px;
+}

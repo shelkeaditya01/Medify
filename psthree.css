@@ -1,0 +1,12 @@
+div{
+    height: 200px;
+    width: 250px;
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    background-image: url(https://img.gaadicdn.com/images/car-images/large/Mahindra/XUV700/11422/1718007242013/223_EVEREST-WHITE-DT_c0c1c6.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 100px;
+}

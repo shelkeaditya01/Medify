@@ -1,0 +1,113 @@
+/* *{
+    text-align: center;
+}
+
+#container{
+    height: 200px;
+    width: 1300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+#box1{
+    background-color: rgba(110,138,100,0.5);
+}
+
+#box2{
+    background-color: rgba(138,110,100,0.5);
+}
+
+#box3{
+    background-color: rgba(148,117,100,0.5);
+}
+
+#box4{
+    background-color: rgba(117,148,100,0.5);
+}
+
+#box5{
+    background-color: rgba(110,138,100,0.8);
+} */
+ /* .navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ a{
+    text-decoration: none;
+ }
+ 
+.outer{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 152, 9);
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+}
+
+@media (max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
+
+@media (max-width:600px){
+    div{
+        background-color: blue;
+    }
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    color: rebeccapurple;
+    background-color: palegoldenrod;
+    border: 2px solid black;
+}
+
+div:hover{
+    color: aqua;
+    background-color: aliceblue;
+}
+
+div:active{
+    counter-reset: red;
+    background-color: blue;
+}
