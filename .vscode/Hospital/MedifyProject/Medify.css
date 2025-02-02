@@ -1,0 +1,249 @@
+.navbar{
+    height: 48px;
+    background-color: rgba(0, 242, 255, 0.66);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar a{
+    color: rgba(0, 8, 255, 0.699);
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.t1{
+    height: 30px;
+    width: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.t2{
+    height: 30px;
+    width: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.t3{
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13px;
+    margin-right: 20px;
+}
+
+.t4{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.t5{
+    height: 30px;
+    width: 45px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border: 1px solid rgba(255, 255, 255, 0.89);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    border: 1px solid rgb(89, 0, 255);
+}
+
+.imgbg{
+    height: 1000px;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg3MC10YW5nLTM2XzEuanBn.jpg);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.bgbox1{
+    height: 600px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.bgbox1 h1{
+    font-style: italic;
+    font-size: 60px;
+    color: #0A3D7E;
+    width: 291px;
+    border-bottom: 4px solid #0A3D7E;
+}
+
+.bgbox1 h2{
+    color: rgba(0, 115, 255, 0.826);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.p1{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-indent: 38px;
+    line-height: 29px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.featu{
+    display: flex;
+}
+
+.consu{
+    height: 300px;
+    width: 262px;
+    text-align: center;
+}
+
+.consu a{
+    color: rgb(30, 128, 0);
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.bgbox2{
+    height: 600px;
+    width: 400px;
+    background: white;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    margin-left: 100px;
+}
+
+.bgbox2:hover{
+    border: 2px solid rgb(0, 118, 260);
+}
+
+.bgbox2 h2{
+    padding-top: 20px;
+    padding-left: 165px;
+}
+
+.detail{
+    padding: 98px;
+}
+
+.detail input{
+    padding: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.detail button{
+    font-weight: 800;
+    padding: 10px;
+    margin: 64px;
+}
+
+.bgbox2 i{
+    font-size: 29px;
+}
+
+.bgbox2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.bgcontent{
+    display: flex;
+    column-width: 400px;
+}
+
+.space{
+    height: 100px;
+}
+
+.terms{
+    height: 200px;
+    background-color: rgba(0, 174, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tbox0{
+    color: white;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+.tbox1{
+    height: 110px;
+    width: 400px;
+    border-left: 2px solid white;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+.tbox2{
+    height: 110px;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+.tbox3{
+    height: 110px;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+.terms h2{
+    color: black;
+}
+
+.terms p{
+    color: white;;
+}
+
+.foots1{
+    height: 336px;
+    background-color: wheat;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foots h1{
+    font-weight: 1000;
+}

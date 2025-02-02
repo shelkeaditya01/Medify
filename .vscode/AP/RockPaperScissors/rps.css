@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+h1{
+    color: white;
+    height: 60px;
+    background-color: maroon;
+    text-align: center;
+    line-height: 60px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 29px;
+}
+
+
+.image:hover{
+    opacity: 48%;
+    cursor: pointer;
+}
+
+.scorecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 61px;
+    margin-top: 100px;
+}
+
+.score{
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.pick{
+    margin-top: 5rem;
+}
+
+.picki{
+    color: white;
+    font-size: 38px;
+    background-color: maroon;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}

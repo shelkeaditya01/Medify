@@ -1,0 +1,37 @@
+/* body{
+    background-color: lightblue;
+}
+
+.heading1{
+    background-color: pink;
+    color: white;
+}
+
+.heading2{
+    background-color: maroon;
+    color: white;
+}
+
+.heading3{
+    background-color: chocolate;
+    color: white;
+} */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 10px;
+    text-align: center;
+} */
+
+.information{
+    color: white;
+}
+
+.new{
+    height: 100px;
+    width: 249px;
+    background-color: pink;
+    text-align: center;
+}

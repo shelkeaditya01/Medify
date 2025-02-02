@@ -1,0 +1,18 @@
+.box{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+}
+
+
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
